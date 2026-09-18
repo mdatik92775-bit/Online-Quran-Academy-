@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emerald-deep: #064E3B;
+    --color-emerald-islamic: #0D7A4D;
+    --color-gold-soft: #D4AF37;
+    --color-gold-light: #FBF4DD;
+    --color-navy-dark: #0F1E2E;
+    --color-cream-light: #FAF8F2;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-arabic {
+    font-family: 'Amiri', serif;
+  }
+}
+
+/* Subtle modern Islamic geometric motif pattern */
+.bg-islamic-pattern {
+  background-color: #064E3B;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1.5px, transparent 1.5px),
+                    radial-gradient(rgba(212, 175, 55, 0.08) 1.5px, #064E3B 1.5px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.bg-islamic-pattern-light {
+  background-color: #FAF8F2;
+  background-image: radial-gradient(rgba(13, 122, 77, 0.08) 1px, transparent 1px),
+                    radial-gradient(rgba(212, 175, 55, 0.06) 1px, #FAF8F2 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #0D7A4D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #064E3B;
+}
+

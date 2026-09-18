@@ -1,0 +1,6 @@
+{
+  "name": "Online Quran Academy",
+  "description": "Learn Quran Online with Qualified Teachers. Personalized one-to-one Quran classes for kids, adults and families with flexible timings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
